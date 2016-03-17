@@ -5,13 +5,15 @@ Chat at   [![Gitter](https://badges.gitter.im/edos4/itwd.svg)](https://gitter.im
 # Git
 
 ### Add a file
+
+To add a file: 
 ```
 git add <filename>
 ```
 
 Repeat this until you have added all the files that you want to add. 
 
-If you want to add all files, 
+If you want to add all files: 
 ```
 git add *
 ```
