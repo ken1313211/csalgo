@@ -36,3 +36,22 @@ Push the file:
 ```
 git push origin master
 ```
+
+### Delete a file
+
+Delete a file
+
+Add the file:
+```
+git add <filename>
+```
+
+Commit the file:
+```
+git commit -m "<short description of what you've done>"
+```
+
+Push the file:
+```
+git push origin master
+```
