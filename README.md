@@ -3,11 +3,15 @@
 Chat at   [![Gitter](https://badges.gitter.im/edos4/itwd.svg)](https://gitter.im/edos4/itwd?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ###Table of Contents
+  * [Create GitHub Page](#create-github-page)
   * [Add a file](#add-a-file)
   * [Edit a file](#edit-a-file)
   * [Delete a file](#delete-a-file)
 
 # Git
+
+### Create GitHub Page
+[Create GitHub Page](https://pages.github.com/)
 
 ### Add a file
 
