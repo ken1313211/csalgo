@@ -17,3 +17,22 @@ If you want to add all files:
 ```
 git add *
 ```
+
+### Edit a file
+
+Edit a file
+
+Add the file:
+```
+git add <filename>
+```
+
+Commit the file:
+```
+git commit -m "<short description of what you've done>"
+```
+
+Push the file:
+```
+git push origin master
+```
