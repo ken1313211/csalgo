@@ -34,6 +34,7 @@ git commit -m "<short description of what you've done>"
 
 Push the file:
 ```
+git pull origin master
 git push origin master
 ```
 
@@ -53,6 +54,7 @@ git commit -m "<short description of what you've done>"
 
 Push the file:
 ```
+git pull origin master
 git push origin master
 ```
 
@@ -72,5 +74,6 @@ git commit -m "<short description of what you've done>"
 
 Push the file:
 ```
+git pull origin master
 git push origin master
 ```
