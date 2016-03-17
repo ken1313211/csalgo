@@ -1,0 +1,10 @@
+1. What does NSFNET stand for?
+2. What does URL stand for?
+3. What does ISP stand for?
+4. What does TCP stand for?
+5. What does FTP stand for?
+6. What does HTTP stand for?
+7. What does IP stand for?
+8. What does WAN stand for?
+9. What does LAN stand for?
+10. What does HTML stand for?
