@@ -45,6 +45,7 @@ Chat at   [![Gitter](https://badges.gitter.im/edos4/itwd.svg)](https://gitter.im
  
 ### At School
 If you don't have `git.zip` and `rename.bat` on the `git` folder of your drive H:
+
 1. Do steps 1-9 of [At Home](#at-home) but instead of on your desktop, put the `git` folder on your drive H
 2. Copy the `git` folder located at your drive H to your desktop. The purpose of this is to avoid doing steps 1-9 all over again.
 3. Do steps 10-19 of [At Home](#at-home)
