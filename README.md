@@ -41,13 +41,13 @@ Chat at   [![Gitter](https://badges.gitter.im/edos4/itwd.svg)](https://gitter.im
 16. Open the `PortableGit` directory
 17. Double click `git-cmd` or `git-cmd.exe`
 18. If this is your first setup on your current computer, [Clone project](#clone-project)
-19. If you have already cloned a copy on your current computer, type `cd PROJECT_NAME` where `PROJECT_NAME` is your project folder (i.e. <YOUR_GITHUB_USERNAME>.github.io or in my case, edos4.github.io)
+19. If you have already cloned a copy on your current computer, type `cd PROJECT_NAME` where `PROJECT_NAME` is your project folder (i.e. (YOUR_GITHUB_USERNAME).github.io or in my case, edos4.github.io)
  
 ### At School
 at school
 
 ### Clone Project
-1. Open your GitHub project page (i.e. <YOUR_GITHUB_USERNAME>.github.io or in my case, edos4.github.io)
+1. Open your GitHub project page (i.e. (YOUR_GITHUB_USERNAME).github.io or in my case, edos4.github.io)
 2. 
 3. Upon opening `git-cmd` or `git-cmd.exe`, type `git clone <>`
 
