@@ -42,6 +42,7 @@ Chat at   [![Gitter](https://badges.gitter.im/edos4/itwd.svg)](https://gitter.im
 17. Double click `git-cmd` or `git-cmd.exe`
 18. If this is your first setup on your current computer, [Clone project](#clone-project)
 19. If you have already cloned a copy on your current computer, type `cd PROJECT_NAME` where `PROJECT_NAME` is your project folder (i.e. (YOUR_GITHUB_USERNAME).github.io or in my case, edos4.github.io) then press enter. Example would be `cd edos4.github.io`
+20. 6. [Add a file](#add-a-file) / [Edit a file](#edit-a-file) / [Delete a file](#delete-a-file)
  
 ### At School
 If you don't have `git.zip` and `rename.bat` on the `git` folder of your drive H:
