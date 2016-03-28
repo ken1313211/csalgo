@@ -41,16 +41,19 @@ Chat at   [![Gitter](https://badges.gitter.im/edos4/itwd.svg)](https://gitter.im
 16. Open the `PortableGit` directory
 17. Double click `git-cmd` or `git-cmd.exe`
 18. If this is your first setup on your current computer, [Clone project](#clone-project)
-19. If you have already cloned a copy on your current computer, type `cd PROJECT_NAME` where `PROJECT_NAME` is your project folder (i.e. (YOUR_GITHUB_USERNAME).github.io or in my case, edos4.github.io)
+19. If you have already cloned a copy on your current computer, type `cd PROJECT_NAME` where `PROJECT_NAME` is your project folder (i.e. (YOUR_GITHUB_USERNAME).github.io or in my case, edos4.github.io) then press enter. Example would be `cd edos4.github.io`
  
 ### At School
 at school
 
 ### Clone Project
 1. Open your GitHub project page (i.e. (YOUR_GITHUB_USERNAME).github.io or in my case, edos4.github.io)
-2. Click this:
+2. Click this (the one surrounded by the red box):
 ![This](https://raw.githubusercontent.com/edos4/itwd/master/assets/repo_name.png)
-3. Upon opening `git-cmd` or `git-cmd.exe`, type `git clone <>`
+3. Upon opening `git-cmd` or `git-cmd.exe`, type `git clone ` then paste (right click, then click paste)
+4. The sample output should be `git clone https://github.com/edos4/edos4.github.io.git` then press enter
+5. Type `cd PROJECT_NAME` where `PROJECT_NAME` is your project folder (i.e. (YOUR_GITHUB_USERNAME).github.io or in my case, edos4.github.io) then press enter. Example would be `cd edos4.github.io`
+6. [Add a file](#add-a-file) / [Edit a file](#edit-a-file) / [Delete a file](#delete-a-file)
 
 ### Add a file
 
