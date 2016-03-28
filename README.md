@@ -7,6 +7,7 @@ Chat at   [![Gitter](https://badges.gitter.im/edos4/itwd.svg)](https://gitter.im
   * [Setup Git](#setup-git)
     * [At Home](#at-home)
     * [At School](#at-school)
+  * [Clone project](#clone-project)
   * [Add a file](#add-a-file)
   * [Edit a file](#edit-a-file)
   * [Delete a file](#delete-a-file)
@@ -19,6 +20,8 @@ Chat at   [![Gitter](https://badges.gitter.im/edos4/itwd.svg)](https://gitter.im
 ### Setup Git
 
 ### At Home
+`` If you have any questions,`` [Ask here](https://gitter.im/edos4/itwd) 
+
 1. Create a folder named `git` on your desktop
 2. Go to the [ITWD Download Page](https://github.com/edos4/itwd/tree/master/Downloads)
 2. Right click `git.jpg`, click `Open link in new tab`
@@ -37,11 +40,16 @@ Chat at   [![Gitter](https://badges.gitter.im/edos4/itwd.svg)](https://gitter.im
 15. Click `Ok` and wait for the process to finish
 16. Open the `PortableGit` directory
 17. Double click `git-cmd` or `git-cmd.exe`
-18. To be continued kasi magsasara na ang school. :)
+18. If this is your first setup on your current computer, [Clone project](#clone-project)
+19. If you have already cloned a copy on your current computer, type `cd PROJECT_NAME` where `PROJECT_NAME` is your project folder (i.e. <YOUR_GITHUB_USERNAME>.github.io or in my case, edos4.github.io)
  
 ### At School
 at school
 
+### Clone Project
+1. Open your GitHub project page (i.e. <YOUR_GITHUB_USERNAME>.github.io or in my case, edos4.github.io)
+2. 
+3. Upon opening `git-cmd` or `git-cmd.exe`, type `git clone <>`
 
 ### Add a file
 
