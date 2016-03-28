@@ -4,6 +4,9 @@ Chat at   [![Gitter](https://badges.gitter.im/edos4/itwd.svg)](https://gitter.im
 
 ###Table of Contents
   * [Create GitHub Page](#create-github-page)
+  * [Setup Git](#setup-git)
+    * [At Home](#at-home)
+    * [At School](#at-school)
   * [Add a file](#add-a-file)
   * [Edit a file](#edit-a-file)
   * [Delete a file](#delete-a-file)
@@ -12,6 +15,15 @@ Chat at   [![Gitter](https://badges.gitter.im/edos4/itwd.svg)](https://gitter.im
 
 ### Create GitHub Page
 [Create GitHub Page](https://pages.github.com/)
+
+### Setup Git
+
+### At Home
+ at home
+ 
+### At School
+at school
+
 
 ### Add a file
 
