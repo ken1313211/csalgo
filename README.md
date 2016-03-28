@@ -44,11 +44,14 @@ Chat at   [![Gitter](https://badges.gitter.im/edos4/itwd.svg)](https://gitter.im
 19. If you have already cloned a copy on your current computer, type `cd PROJECT_NAME` where `PROJECT_NAME` is your project folder (i.e. (YOUR_GITHUB_USERNAME).github.io or in my case, edos4.github.io) then press enter. Example would be `cd edos4.github.io`
  
 ### At School
-at school
+If you don't have `git.zip` and `rename.bat` on the `git` folder of your drive H:
+1. Do steps 1-9 of [At Home](#at-home) but instead of on your desktop, put the `git` folder on your drive H
+2. Copy the `git` folder located at your drive H to your desktop. The purpose of this is to avoid doing steps 1-9 all over again.
+3. Do steps 10-19 of [At Home](#at-home)
 
 ### Clone Project
 1. Open your GitHub project page (i.e. (YOUR_GITHUB_USERNAME).github.io or in my case, edos4.github.io)
-2. Click this (the one surrounded by the red box):
+2. Click this (the one surrounded by the red box) then copy:
 ![This](https://raw.githubusercontent.com/edos4/itwd/master/assets/repo_name.png)
 3. Upon opening `git-cmd` or `git-cmd.exe`, type `git clone ` then paste (right click, then click paste)
 4. The sample output should be `git clone https://github.com/edos4/edos4.github.io.git` then press enter
