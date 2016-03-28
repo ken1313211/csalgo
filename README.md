@@ -48,7 +48,8 @@ at school
 
 ### Clone Project
 1. Open your GitHub project page (i.e. (YOUR_GITHUB_USERNAME).github.io or in my case, edos4.github.io)
-2. 
+2. Click this:
+![This](https://raw.githubusercontent.com/edos4/itwd/master/assets/repo_name.png)
 3. Upon opening `git-cmd` or `git-cmd.exe`, type `git clone <>`
 
 ### Add a file
