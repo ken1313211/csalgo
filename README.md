@@ -82,6 +82,7 @@ Push the file:
 git pull origin master
 git push origin master
 ```
+Supply GitHub username and password if required. Password will not be shown as you type. Just type your password.
 
 ### Edit a file
 
@@ -102,6 +103,7 @@ Push the file:
 git pull origin master
 git push origin master
 ```
+Supply GitHub username and password if required. Password will not be shown as you type. Just type your password.
 
 ### Delete a file
 
@@ -122,4 +124,4 @@ Push the file:
 git pull origin master
 git push origin master
 ```
-
+Supply GitHub username and password if required. Password will not be shown as you type. Just type your password.
