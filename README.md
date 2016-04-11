@@ -11,6 +11,7 @@ Chat at   [![Gitter](https://badges.gitter.im/edos4/itwd.svg)](https://gitter.im
   * [Add a file](#add-a-file)
   * [Edit a file](#edit-a-file)
   * [Delete a file](#delete-a-file)
+  * [CSS Cheat Sheet](#css-cheat-sheet)
 
 # Git
 
@@ -127,3 +128,7 @@ git pull origin master
 git push origin master
 ```
 Supply GitHub username and password if required. Password will not be shown as you type. Just type your password.
+
+
+### CSS Cheat Sheet
+[CSS Cheat Sheet](http://www.lesliefranke.com/files/reference/csscheatsheet.html)
