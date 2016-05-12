@@ -12,6 +12,7 @@ Chat at   [![Gitter](https://badges.gitter.im/edos4/itwd.svg)](https://gitter.im
   * [Edit a file](#edit-a-file)
   * [Delete a file](#delete-a-file)
   * [CSS Cheat Sheet](#css-cheat-sheet)
+  * [Bootstrap Cheat Sheet](#bootstrap-cheat-sheet)
 
 # Git
 
@@ -132,3 +133,7 @@ Supply GitHub username and password if required. Password will not be shown as y
 
 ### CSS Cheat Sheet
 [CSS Cheat Sheet](http://www.lesliefranke.com/files/reference/csscheatsheet.html)
+
+### Bootstrap Cheat Sheet
+[Bootstrap Cheat Sheet 1](http://hackerthemes.com/bootstrap-cheatsheet/)
+[Bootstrap Cheat Sheet 2](https://dresssed.s3.amazonaws.com/bootstrap_cheatsheet.pdf)
