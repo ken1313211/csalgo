@@ -136,4 +136,5 @@ Supply GitHub username and password if required. Password will not be shown as y
 
 ### Bootstrap Cheat Sheet
 [Bootstrap Cheat Sheet 1](http://hackerthemes.com/bootstrap-cheatsheet/)
+
 [Bootstrap Cheat Sheet 2](https://dresssed.s3.amazonaws.com/bootstrap_cheatsheet.pdf)
