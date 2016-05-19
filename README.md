@@ -13,6 +13,8 @@ Chat at   [![Gitter](https://badges.gitter.im/edos4/itwd.svg)](https://gitter.im
   * [Delete a file](#delete-a-file)
   * [CSS Cheat Sheet](#css-cheat-sheet)
   * [Bootstrap Cheat Sheet](#bootstrap-cheat-sheet)
+  * [Project](#Project)
+    * [Create Repository](#create-repository)
 
 # Git
 
@@ -138,3 +140,15 @@ Supply GitHub username and password if required. Password will not be shown as y
 [Bootstrap Cheat Sheet 1](http://hackerthemes.com/bootstrap-cheatsheet/)
 
 [Bootstrap Cheat Sheet 2](https://dresssed.s3.amazonaws.com/bootstrap_cheatsheet.pdf)
+
+### Project
+
+### Create Repository
+1. Be a member of https://github.com/itwd103-n392
+2. Go to https://github.com/itwd103-n392
+3. Click `New Repository`
+4. Repository name should describe your project
+5. Click `Create Repository`
+6. Create gh-pages branch on your local: `git checkout -b gh-pages` (1 time only)
+7. Do your thing
+8. Push/pull changes to gh-pages branch: `git pull origin gh-pages` or `git push origin gh-pages`.
