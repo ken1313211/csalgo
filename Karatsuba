@@ -1,0 +1,47 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package karatsuba;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author kggarcia
+ */
+public class Karatsuba {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        String x,y;
+        int a,b,c,d;
+        int ac,ad,bc,bd;
+        int answer;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter X: ");
+        x = sc.nextLine();
+        System.out.print("Enter Y: ");
+        y = sc.nextLine();
+        System.out.println("x: "+x+"  y: "+ y );
+        a = Integer.parseInt(x.substring(0,2));
+        b = Integer.parseInt(x.substring(2,4));
+        c = Integer.parseInt(y.substring(0,2));
+        d = Integer.parseInt(y.substring(2,4));
+        
+        ac = a*c;
+        ad = a*d;
+        bc = b*c;
+        bd = b*d;
+        System.out.println("ac : ab : bc : bd "+ac+" "+ad+" "+bc+" "+bd);
+        
+        answer = (ac * 10000)+((ad+bc)*100)+ bd;
+        System.out.print("Answer: " + answer+"\n"); 
+        
+    }
+    
+}
