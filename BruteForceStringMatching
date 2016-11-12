@@ -1,0 +1,160 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package bruteforce;
+
+import java.awt.BorderLayout;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+/**
+ *
+ * @author GENKENLYN
+ */
+class JGraphics extends JFrame implements ActionListener {
+
+    JTextField textField[] = new JTextField[2];
+    JPanel bPanel = new JPanel();
+    JLabel label = new JLabel("Input Characters: ");
+    JButton search = new JButton("Search: ");
+    String t1;
+    String t2;
+    int sLength1;
+    int sLength2;
+    int increment = 0;
+    Boolean check = false;
+    Boolean fcheck[];
+    boolean check2;
+    int precision = 0;
+    char text[];
+    char text2[];
+
+    public JGraphics() {
+        super("Brute Force");
+        for (int x = 0; x < 2; x++) {
+
+            textField[x] = new JTextField();
+
+        }
+
+        add(label);
+        add(textField[0]);
+        add(search);
+        add(textField[1]);
+
+        search.addActionListener(this);
+
+        setSize(400, 300);
+        setLayout(new GridLayout(2, 2));
+        setVisible(true);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
+        setResizable(false);
+
+    }
+
+    public void actionPerformed(ActionEvent ae) {
+
+        if (ae.getSource() == search) {
+            try {
+                t1 = "";
+                t2 = "";
+                t1 = textField[0].getText();
+                t2 = textField[1].getText();
+                bfMethod();
+            } catch (Exception e) {
+
+                JOptionPane.showMessageDialog(this, "There is a problem/Invalid Input", "ALERT", JOptionPane.ERROR_MESSAGE);
+            }
+        }
+
+    }
+
+    public void bfMethod() {
+
+        check = false;
+        check2 = false;
+        sLength1 = 0;
+        sLength2 = 0;
+        sLength1 = t1.length();
+        sLength2 = t2.length();
+        fcheck = new Boolean[sLength2];
+        increment = 0;
+        precision = 0;
+        for (int reset = 0; reset < sLength2; reset++) {
+            fcheck[reset] = false;
+        }
+        text = t1.toCharArray();
+        text2 = t2.toCharArray();
+
+        for (int x = 0; x < sLength1; x++) {
+            if (text2[0] == text[x]) {
+                check = true;
+                System.out.println("true po siya koya");
+                break;
+            } else {
+                increment++;
+            }
+        }
+
+        if (check == true) {
+            fcheck[0] = true;
+            increment++;
+            precision = (increment - 1) + (sLength2 - 1);
+            System.out.println("precision is: " + precision);
+            for (int d = 1; d < sLength2; d++) {
+
+                for (int c = increment; c <= precision; c++) {
+
+                    if (text2[d] == text[c]) {
+                        fcheck[d] = true;
+                        break;
+                    } else {
+
+                    }
+                }
+            }
+
+        } else {
+        }
+
+        for (int value = 0; value < sLength2; value++) {
+            System.out.print(fcheck[value] + ",");
+            if (fcheck[value] == false) {
+                JOptionPane.showMessageDialog(this, "Alert", t2 + " NOT FOUND", JOptionPane.ERROR_MESSAGE);
+                check2 = false;
+                break;
+            } else {
+            }
+            check2 = true;
+        }
+
+        if (check2 == true) {
+            JOptionPane.showMessageDialog(this, t2 + " isssss FOUND", "Alert", JOptionPane.INFORMATION_MESSAGE);
+        } else {
+        }
+
+    }///////////////////////////////
+
+}
+
+public class BruteForce {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        JGraphics graphic = new JGraphics();
+    }
+
+}
